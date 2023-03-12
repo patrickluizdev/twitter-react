@@ -6,6 +6,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <div>
     <Tweet user='Patrick' content='Meu Primeiro Tweet' />
+    
     <Tweet user='React' content='Hello World' />
     </div>
 

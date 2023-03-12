@@ -4,7 +4,7 @@ export function Tweet(props){
       <strong>
       {props.user}
       </strong>
-      <p>{props.content}</p>
+      <a>  {props.content}  </a>
       <button>Like</button>
     </div>
   )

@@ -1,5 +1,11 @@
-export function Tweet(){
+export function Tweet(props){
   return(
-    <div> Teste</div>
+    <div> 
+      <strong>
+      {props.user}
+      </strong>
+      <p>{props.content}</p>
+      <button>Like</button>
+    </div>
   )
 }

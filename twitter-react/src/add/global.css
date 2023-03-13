@@ -67,6 +67,10 @@ a{
   filter: brightness(0.95);
 }
 
+.active{
+  
+}
+
 .main-navigation{
   display: flex;
   flex-direction: column;
@@ -79,6 +83,14 @@ a{
   font-size: 1.25rem;
   font-weight: 700;
 }
+.main-navigation a svg{
+  width: 2rem;
+  height: 2rem;
+}
+.active{
+  color: var(--twitter-blue);
+}
+
 
 .content{
   border-left: 1px solid white;
